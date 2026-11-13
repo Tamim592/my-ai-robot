@@ -13,6 +13,4 @@ def chat(message: str):
     return {
         "user_message": message,
         "reply": "তোমার কথা শুনছি।"
-  @app.get("/test")
-def test():
-    return {"message": "OK"}  
+  }  
